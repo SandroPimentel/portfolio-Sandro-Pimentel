@@ -1,0 +1,46 @@
+@import '../_variables'; 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px; 
+    min-width: 400px;
+    margin: 0 auto; 
+    color: $color-1;
+
+  
+    input[type="text"],
+    input[type="email"],
+
+    textarea {
+      padding: 10px;
+      margin-bottom: 15px; 
+      border: none; 
+      border-radius: 10px; 
+      box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1); 
+  
+      &:focus {
+        border-color: $color-2; 
+        outline: none; 
+      }
+    }
+  
+    textarea {
+      height: 150px; 
+      resize: vertical; 
+    }
+  
+    button[type="submit"] {
+      padding: 10px 15px;
+      background-color: $color-2;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: $color-5; 
+      }
+    }
+  }
+  

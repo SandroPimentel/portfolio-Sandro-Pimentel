@@ -1,0 +1,36 @@
+@import './_variables'; 
+
+$tablet: 768px;
+$desktop: 1024px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%; 
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%; 
+}
+
+main {
+    flex: 1; 
+}
+
+
+footer {
+    background-color: $color-1; 
+    color: white; 
+    text-align: center;
+    padding: 2em 0; 
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}

@@ -1,0 +1,65 @@
+@import '../_variables'; 
+.about-container {
+    min-height: 45vh; 
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: $color-white;
+    color: $color-1;
+    h2 {
+        margin: 1.5em;
+    }
+
+    .about-content {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-width: 80%;
+        color: $color-3;
+        background-color: $color-1;
+        border-radius: 30px;
+        padding: 3em;
+        cursor: pointer;
+        transition: transform 0.5s ease;
+        &:hover {
+            transform: scale(1.05);
+        }
+        .profile-pic-container {
+            flex: 0 0 auto; 
+            margin-right: 20px; 
+    
+            .profile-pic {
+                width: 150px; 
+                height: 150px; 
+                border-radius: 50%; 
+                object-fit: cover; 
+                margin-left: 10%;
+            }
+        }
+    
+        .description-container {
+            font-weight: 500;
+            font-size: 1.2em;
+            margin-left: 30px;
+            opacity: 0; 
+            animation: fadeIn 2s ease-out forwards 3.6s; 
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    
+        @media screen and (max-width: 768px) {
+            padding-top: 2em;
+            padding-bottom: 2em;
+            flex-direction: column;
+            .profile-pic {
+                margin-bottom: 1em;
+            }
+        }
+    }
+}
+

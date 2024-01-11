@@ -1,0 +1,15 @@
+@import '../_variables'; 
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $color-4;
+    h1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1em;
+        color: $color-1;
+    }
+    padding: 2em;
+}

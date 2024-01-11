@@ -1,0 +1,21 @@
+@import '../_variables'; 
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    padding: 20px; 
+    background-color: $color-1;
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        color: $color-3;
+    }
+
+    .projects-cards {
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    }

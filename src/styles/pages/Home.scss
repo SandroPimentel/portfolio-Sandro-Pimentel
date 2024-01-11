@@ -1,0 +1,60 @@
+@import '../_variables'; 
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.home {
+    position: relative;
+    background-size: cover; 
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    background-color: $color-3;
+    color: $color-3;
+    height: 55vh; 
+    background-image: url('./pages-images/background.webp'); 
+    height: 100%;
+    min-height: 500px;
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7); 
+        z-index: 1; 
+    }
+
+    .text-container {
+        position: relative;
+        z-index: 2; 
+        display: flex;
+        flex-direction: column;
+        gap: 4em;
+
+        h1 {
+            margin-top: 20px;
+            font-size: 2.5em;
+            margin-bottom: -40px;
+        }
+
+        p {
+            font-size: 1.2em;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        h2 {
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 1.2em;
+            opacity: 0; 
+            animation: fadeIn 2s ease-out forwards 3.6s; 
+        }
+    }
+}
