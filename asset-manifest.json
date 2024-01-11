@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfolio-Sandro-Pimentel/static/css/main.3f599992.css",
+    "main.js": "/portfolio-Sandro-Pimentel/static/js/main.c5c4e84e.js",
+    "static/media/background.webp": "/portfolio-Sandro-Pimentel/static/media/background.44ded7b15d29766141f4.webp",
+    "index.html": "/portfolio-Sandro-Pimentel/index.html",
+    "main.3f599992.css.map": "/portfolio-Sandro-Pimentel/static/css/main.3f599992.css.map",
+    "main.c5c4e84e.js.map": "/portfolio-Sandro-Pimentel/static/js/main.c5c4e84e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f599992.css",
+    "static/js/main.c5c4e84e.js"
+  ]
+}
