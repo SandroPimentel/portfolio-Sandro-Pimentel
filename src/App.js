@@ -85,7 +85,7 @@ const App = () => {
             githubLink: 'https://github.com/SandroPimentel/Code-Projet-2-OCR',
         },
         {
-            id: 'project-booki',
+            id: 'project-booki2',
             title: "Projet d'étude Booki",
             year: '2023',
             mission: "Ce projet, réalisé durant ma formation avec OpenClassrooms, m'a permis d'acquérir des compétences fondamentales en HTML et CSS. J'y ai appris à structurer et styliser efficacement des interfaces web, posant ainsi les bases de mon développement en tant que développeur frontend.",
@@ -94,7 +94,7 @@ const App = () => {
             githubLink: 'https://github.com/SandroPimentel/Code-Projet-2-OCR',
         },
         {
-            id: 'project-booki',
+            id: 'project-booki3',
             title: "Projet d'étude Booki",
             year: '2023',
             mission: "Ce projet, réalisé durant ma formation avec OpenClassrooms, m'a permis d'acquérir des compétences fondamentales en HTML et CSS. J'y ai appris à structurer et styliser efficacement des interfaces web, posant ainsi les bases de mon développement en tant que développeur frontend.",
@@ -103,7 +103,7 @@ const App = () => {
             githubLink: 'https://github.com/SandroPimentel/Code-Projet-2-OCR',
         },
         {
-            id: 'project-booki',
+            id: 'project-booki4',
             title: "Projet d'étude Booki",
             year: '2023',
             mission: "Ce projet, réalisé durant ma formation avec OpenClassrooms, m'a permis d'acquérir des compétences fondamentales en HTML et CSS. J'y ai appris à structurer et styliser efficacement des interfaces web, posant ainsi les bases de mon développement en tant que développeur frontend.",
@@ -112,7 +112,7 @@ const App = () => {
             githubLink: 'https://github.com/SandroPimentel/Code-Projet-2-OCR',
         },
         {
-            id: 'project-booki',
+            id: 'project-booki5',
             title: "Projet d'étude Booki",
             year: '2023',
             mission: "Ce projet, réalisé durant ma formation avec OpenClassrooms, m'a permis d'acquérir des compétences fondamentales en HTML et CSS. J'y ai appris à structurer et styliser efficacement des interfaces web, posant ainsi les bases de mon développement en tant que développeur frontend.",
@@ -121,7 +121,7 @@ const App = () => {
             githubLink: 'https://github.com/SandroPimentel/Code-Projet-2-OCR',
         },
         {
-            id: 'project-booki',
+            id: 'project-booki6',
             title: "Projet d'étude Booki",
             year: '2023',
             mission: "Ce projet, réalisé durant ma formation avec OpenClassrooms, m'a permis d'acquérir des compétences fondamentales en HTML et CSS. J'y ai appris à structurer et styliser efficacement des interfaces web, posant ainsi les bases de mon développement en tant que développeur frontend.",

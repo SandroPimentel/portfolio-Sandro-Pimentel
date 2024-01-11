@@ -4,7 +4,7 @@ import '../styles/components/SkillCard.scss';
 const SkillCard = ({ title, description, githubProjectTitle, githubLink, imageUrl }) => {
     return (
         <div className="skill-card">
-             {imageUrl && (
+            {imageUrl && (
                 <img src={imageUrl} alt={title} className="skill-image" />
             )}
             <h3 className="skill-title">{title}</h3>
