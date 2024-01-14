@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio-Sandro-Pimentel/static/css/main.3f599992.css",
-    "main.js": "/portfolio-Sandro-Pimentel/static/js/main.c5c4e84e.js",
+    "main.css": "/portfolio-Sandro-Pimentel/static/css/main.6dbb8398.css",
+    "main.js": "/portfolio-Sandro-Pimentel/static/js/main.885460d7.js",
     "static/media/background.webp": "/portfolio-Sandro-Pimentel/static/media/background.44ded7b15d29766141f4.webp",
     "index.html": "/portfolio-Sandro-Pimentel/index.html",
-    "main.3f599992.css.map": "/portfolio-Sandro-Pimentel/static/css/main.3f599992.css.map",
-    "main.c5c4e84e.js.map": "/portfolio-Sandro-Pimentel/static/js/main.c5c4e84e.js.map"
+    "main.6dbb8398.css.map": "/portfolio-Sandro-Pimentel/static/css/main.6dbb8398.css.map",
+    "main.885460d7.js.map": "/portfolio-Sandro-Pimentel/static/js/main.885460d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f599992.css",
-    "static/js/main.c5c4e84e.js"
+    "static/css/main.6dbb8398.css",
+    "static/js/main.885460d7.js"
   ]
 }
