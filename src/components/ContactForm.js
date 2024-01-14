@@ -1,14 +1,35 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
-import '../styles/components/ContactForm.scss'; 
+import '../styles/components/ContactForm.scss';
 
 const ContactForm = () => {
     const [formData, setFormData] = useState({
         from_name: '',
-        to_name: '', 
+        reply_to: '', 
         message: '',
-        reply_to: '',
     });
+
+    const [isSubmitted, setIsSubmitted] = useState(false);
+    const [confirmationMessage, setConfirmationMessage] = useState('');
+    const [showConfirmation, setShowConfirmation] = useState(false);
+    const successMessage = " Votre message a été envoyé avec succès.";
+
+    useEffect(() => {
+        let timer;
+        if (isSubmitted) {
+            setShowConfirmation(true);
+            let index = 0;
+            timer = setInterval(() => {
+                setConfirmationMessage((prev) => prev + successMessage.charAt(index));
+                index++;
+                if (index === successMessage.length) clearInterval(timer);
+            }, 50);
+        } else {
+            setConfirmationMessage('');
+            setShowConfirmation(false);
+        }
+        return () => clearInterval(timer);
+    }, [isSubmitted]);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -26,10 +47,9 @@ const ContactForm = () => {
         )
         .then((response) => {
             console.log('SUCCESS!', response.status, response.text);
-            
+            setIsSubmitted(true);
         }, (error) => {
             console.log('FAILED...', error);
-            
         });
     };
     return (
@@ -41,6 +61,7 @@ const ContactForm = () => {
                 onChange={handleChange}
                 placeholder="Votre nom"
                 required
+                disabled={isSubmitted}
             />
             <input
                 type="email"
@@ -49,6 +70,7 @@ const ContactForm = () => {
                 onChange={handleChange}
                 placeholder="Votre email"
                 required
+                disabled={isSubmitted}
             />
 
             <textarea
@@ -57,8 +79,10 @@ const ContactForm = () => {
                 onChange={handleChange}
                 placeholder="Votre message"
                 required
+                disabled={isSubmitted}
             />
-            <button type="submit">Envoyer</button>
+            <button type="submit" disabled={isSubmitted}>Envoyer</button>
+            <p className="confirmation-message">{confirmationMessage}</p>
         </form>
     );
 };

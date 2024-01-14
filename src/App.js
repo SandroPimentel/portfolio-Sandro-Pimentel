@@ -23,7 +23,7 @@ const App = () => {
             ],
             githubProjectTitle: "Projet d'étude : création d'une page d'accueil en HTML - CSS",
             githubLink: "https://github.com/SandroPimentel/Code-Projet-2-OCR",
-            imageUrl: "/images/htmlcss.webp"
+            imageUrl: "https://sandropimentel.github.io/Images-projet8/images/htmlcss.webp"
         },
         {
             title: "JavaScript",
@@ -34,7 +34,7 @@ const App = () => {
             ],
             githubProjectTitle: "Projet d'étude : création du frontend pour le site d'une architecte",
             githubLink: "https://github.com/SandroPimentel/Projet-3",
-            imageUrl: "/images/js.webp"
+            imageUrl: "https://sandropimentel.github.io/Images-projet8/images/js.webp"
         },
         {
             title: "React",
@@ -45,7 +45,7 @@ const App = () => {
             ],
             githubProjectTitle: "Projet d'étude : création du frontend d'un site de location immobilière",
             githubLink: "https://github.com/SandroPimentel/projet-6",
-            imageUrl: "/images/react.webp"
+            imageUrl: "https://sandropimentel.github.io/Images-projet8/images/react.webp"
         },
         {
             title: "NodeJS",
@@ -56,7 +56,7 @@ const App = () => {
             ],
             githubProjectTitle: "Projet d'étude : création du backend d'un site notation de livre",
             githubLink: "https://github.com/SandroPimentel/projet-7",
-            imageUrl: "/images/nodejs.webp"
+            imageUrl: "https://sandropimentel.github.io/Images-projet8/images/nodejs.webp"
         },
         {
             title: "Optimisation et debug",
@@ -67,7 +67,7 @@ const App = () => {
             ],
             githubProjectTitle: "Projet d'étude : optimisation et débuggage d'un site d'une photographe freelance",
             githubLink: "https://github.com/SandroPimentel/Site-projet-5",
-            imageUrl: "/images/chromedevtools.webp"
+            imageUrl: "https://sandropimentel.github.io/Images-projet8/images/chromedevtools.webp"
         },
         
     ];
@@ -77,58 +77,49 @@ const App = () => {
     const projectData = [
         {
             id: 'project-booki',
-            title: "Projet d'étude Booki",
+            title: "Projet d'étude : Agence immobilière",
             year: '2023',
             mission: "Ce projet, réalisé durant ma formation avec OpenClassrooms, m'a permis d'acquérir des compétences fondamentales en HTML et CSS. J'y ai appris à structurer et styliser efficacement des interfaces web, posant ainsi les bases de mon développement en tant que développeur frontend.",
             technologies: ['Html-CSS'],
-            images: ['/images/Booki.webp'],
+            images: ['https://sandropimentel.github.io/Images-projet8/images/Booki.webp'],
             githubLink: 'https://github.com/SandroPimentel/Code-Projet-2-OCR',
         },
         {
-            id: 'project-booki2',
-            title: "Projet d'étude Booki",
+            id: 'project-js',
+            title: "Projet d'étude : Architecte d'intérieur",
             year: '2023',
-            mission: "Ce projet, réalisé durant ma formation avec OpenClassrooms, m'a permis d'acquérir des compétences fondamentales en HTML et CSS. J'y ai appris à structurer et styliser efficacement des interfaces web, posant ainsi les bases de mon développement en tant que développeur frontend.",
-            technologies: ['Html-CSS'],
-            images: ['/images/Booki.webp'],
-            githubLink: 'https://github.com/SandroPimentel/Code-Projet-2-OCR',
+            mission: "Dans le cadre de ma formation chez OpenClassrooms, ce projet m'a permis d'apprendre les bases de JavaScript. Cette expérience a été cruciale pour maîtriser les concepts clés du langage, notamment la manipulation du DOM et la gestion des événements.",
+            technologies: ['Html-CSS', "JavaScript"],
+            images: ['https://sandropimentel.github.io/Images-projet8/images/Projet-3-1.webp', 'https://sandropimentel.github.io/Images-projet8/images/Projet-3-2.webp', 'https://sandropimentel.github.io/Images-projet8/images/Projet-3-3.webp'],
+            githubLink: 'https://github.com/SandroPimentel/Projet-3',
         },
         {
-            id: 'project-booki3',
-            title: "Projet d'étude Booki",
+            id: 'project-debug',
+            title: "Projet d'étude : Optimisation et debug",
             year: '2023',
-            mission: "Ce projet, réalisé durant ma formation avec OpenClassrooms, m'a permis d'acquérir des compétences fondamentales en HTML et CSS. J'y ai appris à structurer et styliser efficacement des interfaces web, posant ainsi les bases de mon développement en tant que développeur frontend.",
-            technologies: ['Html-CSS'],
-            images: ['/images/Booki.webp'],
-            githubLink: 'https://github.com/SandroPimentel/Code-Projet-2-OCR',
+            mission: "J'ai réalisé un projet centré sur l'optimisation et le débogage pour le site d'une photographe en freelance. Ce travail m'a permis de développer des compétences approfondies en analyse et résolution de problèmes en utilisant principalement les Chrome DevTools. J'ai acquis une expérience pratique en identifiant et en corrigeant les problèmes de performance et de conception dans les interfaces web.",
+            technologies: ['Chrome Devtools'],
+            images: ['https://sandropimentel.github.io/Images-projet8/images/Projet-5.webp'],
+            githubLink: 'https://github.com/SandroPimentel/Site-projet-5.git',
         },
         {
-            id: 'project-booki4',
-            title: "Projet d'étude Booki",
+            id: 'project-react',
+            title: "Projet d'étude : Location immobilière",
             year: '2023',
-            mission: "Ce projet, réalisé durant ma formation avec OpenClassrooms, m'a permis d'acquérir des compétences fondamentales en HTML et CSS. J'y ai appris à structurer et styliser efficacement des interfaces web, posant ainsi les bases de mon développement en tant que développeur frontend.",
-            technologies: ['Html-CSS'],
-            images: ['/images/Booki.webp'],
-            githubLink: 'https://github.com/SandroPimentel/Code-Projet-2-OCR',
+            mission: "Ce projet m'a permis de me familiariser avec React et SCSS. En développant une application de location immobilière, j'ai acquis une compréhension pratique de React pour la création de composants et utilisé SCSS pour une stylisation cohérente et modulaire. ",
+            technologies: ['React', 'SCSS', "JavaScript"],
+            images: ['https://sandropimentel.github.io/Images-projet8/images/Projet-6-1.webp', 'https://sandropimentel.github.io/Images-projet8/images/Projet-6-3.webp', 'https://sandropimentel.github.io/Images-projet8/images/Projet-6-2.webp'],
+            githubLink: 'https://github.com/SandroPimentel/projet-6.git',
         },
         {
-            id: 'project-booki5',
-            title: "Projet d'étude Booki",
+            id: 'project-backend',
+            title: "Projet d'étude : Notation de livres",
             year: '2023',
-            mission: "Ce projet, réalisé durant ma formation avec OpenClassrooms, m'a permis d'acquérir des compétences fondamentales en HTML et CSS. J'y ai appris à structurer et styliser efficacement des interfaces web, posant ainsi les bases de mon développement en tant que développeur frontend.",
-            technologies: ['Html-CSS'],
-            images: ['/images/Booki.webp'],
-            githubLink: 'https://github.com/SandroPimentel/Code-Projet-2-OCR',
-        },
-        {
-            id: 'project-booki6',
-            title: "Projet d'étude Booki",
-            year: '2023',
-            mission: "Ce projet, réalisé durant ma formation avec OpenClassrooms, m'a permis d'acquérir des compétences fondamentales en HTML et CSS. J'y ai appris à structurer et styliser efficacement des interfaces web, posant ainsi les bases de mon développement en tant que développeur frontend.",
-            technologies: ['Html-CSS'],
-            images: ['/images/Booki.webp', '/images/Booki.webp'],
-            githubLink: 'https://github.com/SandroPimentel/Code-Projet-2-OCR',
-        },
+            mission:"Durant ce projet backend sur la notation de livres, j'ai eu l'opportunité d'apprendre et d'appliquer les fondamentaux de Node.js, Express, et MongoDB. Ce travail m'a permis de construire une application fonctionnelle avec la gestion des fichiers via Multer et Sharp, enrichissant mes connaissances en développement backend.",
+            technologies: ['Node JS', 'Express', 'Multer', 'Sharp', 'MongoDB'],
+            images: ['https://sandropimentel.github.io/Images-projet8/images/Projet-7-1.webp', 'https://sandropimentel.github.io/Images-projet8/images/Projet-7-2.webp', 'https://sandropimentel.github.io/Images-projet8/images/Projet-7-3.webp'],
+            githubLink: 'https://github.com/SandroPimentel/projet-7.git',
+        }
     ];
 
    

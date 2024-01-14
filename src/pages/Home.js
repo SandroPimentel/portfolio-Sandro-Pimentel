@@ -37,7 +37,7 @@ const Home = () => {
 
     return (
         <div className="home">
-            <div class="overlay"></div>
+            <div className="overlay"></div>
             <div className="text-container">
                 <h1>
                     {typedTextH1.slice(0, greetingText.length)}
