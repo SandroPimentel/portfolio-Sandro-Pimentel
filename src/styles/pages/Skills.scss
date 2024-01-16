@@ -9,30 +9,12 @@
     background-color: $color-4;
 }
 .skills-container {
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 3.33%;
+    gap: 4%;
     justify-content: center;
     padding: 20px;
     height: auto; 
     margin-top: 2em;
-
-    
-    @media (min-width: 1200px) { 
-        .skill-card {
-            flex: 0 0 calc(30% - 20px); 
-        }
-    }
-
-    @media (max-width: 1199px) and (min-width: 768px) { 
-        .skill-card {
-            flex: 0 0 calc(50% - 20px); 
-        }
-    }
-
-    @media (max-width: 767px) { 
-        .skill-card {
-            flex: 0 0 100%; 
-        }
-    }
 }

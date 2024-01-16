@@ -2,8 +2,7 @@
 
 .skill-card {
     height: 300px; 
-    max-width: 100%; 
-    min-width: 400px;
+    width: 500px;
     background-color: $color-white;
     color: $color-1;
     border: 1px solid #ddd;
@@ -53,7 +52,7 @@
 
         .skill-content {
             display: flex; 
-            gap: 20px;
+            gap: 1em;
             flex-direction: column;
 
             a {
@@ -72,5 +71,13 @@
         font-size: 1.2em;
         margin: 0.5em 0;
         display: block;
+    }
+
+    @media (max-width: 1024px) {
+        font-size: 0.9em;
+    }
+    
+    @media (max-width: 768px) {
+
     }
 }
